@@ -29,16 +29,17 @@ public class FizzBuzz {
 public static void main(String[] args) {
 System.out.println();
 	for (int i = 0; i < 21; i++) {
+if(i%15 == 0) {
+	System.out.println("fizzBuzz");
+}
 if(i%3 == 0) {
 	System.out.println("fizz");
 }
 if(i%5 == 0) {
 	System.out.println("buzz");
 }
-	}
 	
-
-	
+}
 }
 }
 
